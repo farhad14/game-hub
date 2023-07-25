@@ -1,8 +1,6 @@
 import useGenres from "../hooks/useGenres";
 
-interface Props {}
-
-const GenreList = ({}: Props) => {
+const GenreList = () => {
   const { genres } = useGenres();
 
   return (
